@@ -1,0 +1,9 @@
+# macOS / Linux
+cat > .gitignore << 'EOF'
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+EOF.outlier_env/
